@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "AWAKENNING STEEL Personal Use";
+    src: url(fonts/AWAKENNING\ STEEL\ Personal\ Use.ttf);
+}   
+
+
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #fff;
+    -webkit-font-smoothing: antialiased; /*сглаживает шрифты*/
+   }
+
+
+   *,
+   *:before,
+   *:after {
+       box-sizing: border-box;
+   }
+
+   h1,h2,h3,h4,h5,h6 {
+       padding: 0;
+   }
+
+   p {
+       margin: 0 0 10px;
+   }
+
+   /* Containter
+   ============================*/
+
+   .container {
+       width: 100%;
+       max-width: 1200px;
+       margin: 0 auto;
+       padding: 0 15px;
+   }
+
+
+
+    /* Header
+   ============================*/
+   .header {
+       width: 100%;
+       height: 100px;
+       position: absolute; 
+       top: 0;
+       left: 0;
+       z-index: 1000;
+       background-image: url(img/image\ 2.jpg);
+       border-bottom: 2px solid #fff; 
+   }
+
+   .header__img{
+       width: 70%;
+   }
+
+   .header__inner {
+       padding: 35px 0; 
+       align-items: center; 
+   }
+
+
+   
+    /* Nav
+   ============================*/
+   .nav {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+
+   .nav__link:hover {
+       text-decoration: underline;
+   }
+
+   .nav__link {
+       margin-left: 50px; 
+       color: #fff;
+       font-size: 13px;
+       text-transform: uppercase;
+       text-decoration: none;
+   }
+
+   .nav__link:first-child {
+        margin-left: 0;
+   }
+    /* intro
+    ============================*/
+
+   .intro {
+       width: 100%;
+       display: flex;
+       flex-direction: column; 
+       padding-top: 100px; 
+       height: 750px;
+   }
+
+   .intro__img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center center;
+        z-index: -1;
+        object-fit: cover;
+ }
+
+   .intro__subtitle {
+       margin: 0;
+       font-family: "AWAKENNING STEEL Personal Use";
+       font-weight: 400;
+       font-size: 64px;
+       text-transform: uppercase;
+       line-height: 160px;
+       color: #000;
+   }
+
+   .intro__subtitle2 {
+       margin: 0;
+       font-family: "AWAKENNING STEEL Personal Use";
+       font-weight: 400;
+       font-size: 64px;
+       text-transform: uppercase;
+       color: #000;
+       line-height: 160px;
+       margin-left: 120px;
+}
+
+    .intro__title {
+        font-family: "AWAKENNING STEEL Personal Use";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 120px;
+        margin-left: 40px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    .intro__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+     /* main
+    ============================*/
+
+    .main {
+        padding-top: 122px; 
+    }
+
+    .main__bg {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+
+    .main__search {
+        font-size: 54px;
+        text-decoration: none;
+        color: #D3974E;
+        transition: .hover .2s linear;
+    }
+
+    .place {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .date {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .people {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .start {
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .main__search:hover {
+        color: #e7932c;
+    }
+    
+    .table {
+        width: 100%;
+        font-size: 24px;
+        margin: 0 0 177px;
+    }
+
+    .main__flex {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .main__img {
+        width: 50%;
+    }
+
+    .main__flex-item {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+    .name {
+        color: #D3974E;
+    }
+
+    .bio {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .upgrade {
+        font-weight: 700;
+    }
+
+
+
+    .main__info {
+
+    }
